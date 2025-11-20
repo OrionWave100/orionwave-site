@@ -1,0 +1,11 @@
+/* Style simplifié, modernisé façon Vitality */
+body{font-family:Arial;margin:0;background:#f3f6ff;color:#0b1d39;}
+header{display:flex;justify-content:space-between;padding:15px;background:#fff;box-shadow:0 2px 8px rgba(0,0,0,0.05);} 
+.logo{height:50px;}
+nav a{margin:0 10px;text-decoration:none;color:#0b1d39;font-weight:600;}
+.banner{height:220px;background:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1600&q=80') center/cover;display:flex;align-items:center;justify-content:center;color:white;font-size:36px;font-weight:bold;}
+.page-content{padding:40px;max-width:1000px;margin:auto;}
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 4px 15px rgba(0,0,0,0.1);} 
+.portfolio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;} 
+footer{text-align:center;padding:20px;background:#07112a;color:white;margin-top:40px;}
